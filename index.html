@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Weather</title>
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+  <div class="bar">
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container-fluid my-3 py-4 ">
+        <a class="navbar-brand ps-5 ms-5 pb-3" href="#"><img src="images/logo.png" alt=""> <span>weather</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 pe-5">
+            <li class="nav-item pe-5">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item pe-5">
+              <a class="nav-link" href="#">News</a>
+            </li>
+            <li class="nav-item  pe-5 ">
+              <a class="nav-link" href="#">Lives Cameras</a>
+            </li>
+            <li class="nav-item  pe-5 ">
+              <a class="nav-link " href="#">Photo</a>
+            </li>
+            <li class="nav-item  pe-5 ">
+              <a class="nav-link " href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <div class="slid2">
+    <div class="hero" style="background-image: url('images/banner.png');">
+      <div class="container ">
+        <div class="search d-flex flex-row  justify-content-center">
+          <input type="text" placeholder=" Find your location..." class=" w-100 d-flex me-2" id="search">
+          <button class=" btn btn-info" id="submit">Find</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="container ">
+      <div class="col-md-12 d-flex pb-5">
+        <div class="today forecast text-white">
+          <div class="forecast-header d-flex justify-content-center " id="today">
+            <div class=" date"></div>
+          </div>
+          <div class="forecast-content" id="current">
+            <div class="location"></div>
+            <div class="degree">
+              <div class="num"></div>
+              <div class="low"></div>
+              <div class="forecast-icon py-2">
+                <img id="icon-city" src="" alt="" width="90">
+                <div class="stat py-1 pb-3"></div>
+                <span class="pe-2"><img src="images/icon-umberella.png" alt="" class="pe-2">20%</span>
+                <span class="pe-2"><img src="images/icon-wind.png" alt="" class="pe-2">18km/h</span>
+                <span class="pe-2"><img src="images/icon-compass.png" alt="" class="pe-2">East</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="today forecast ">
+          <div class="forecast-header1 text-center" id="today">
+            <div id="date1" class=" text-white">tsad</div>
+          </div>
+          <div class="forecast-content1 text-white text-center" id="current">
+            <div class="degree">
+              <div class="num1"></div>
+              <div class="low1"></div>
+              <div class="forecast-icon  py-2">
+                <img id="icon1" alt="" width="90">
+                <div class="custom1 pt-3"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="today forecast text-white">
+          <div class="forecast-header text-center" id="today">
+            <div class="date2"></div>
+          </div>
+          <div class="forecast-content2 text-center" id="current">
+            <div class="degree">
+              <div class="num3"></div>
+              <div class="low2"></div>
+              <div class="icon3 py-2">
+                <img src="" id="icon3" alt="" width="90">
+                <div class="custom3 pt-3"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="search d-flex flex-row  justify-content-center">
+            <input type="text" placeholder=" Enter Your Email To Subscribe..." class=" w-100 d-flex me-2" id="search">
+            <button class=" btn btn-info" id="submit">Subscribe</button>
+          </div>
+        </div>
+        <div class="col-md-4 d-flex justify-content-center align-items-center">
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" ><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-google-plus-g"></i></a>
+            <a href="#"><i class="fab fa-pinterest"></i></a>
+          </div>
+        </div>
+        <div class="py-3 text-center text">
+          <p>Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+      </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/all.min.js"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>
